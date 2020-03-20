@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Storly.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>My Customers</h2>
+
+    <table id="customers">
+        <th>Name</th>
+        <th>DisCountRate</th>
+        <th>MemberShipType</th>
+        <th></th>
+
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(customer.Name,"Details","Customer",new {id=customer.Id},null )</td>
+                    <!-- We used Include method to enable this return DiscountRate value from MemberShipType-->
+                    <td>@customer.MembershipType.DiscountRate%</td>
+                    <td>@customer.MembershipType.Name</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", "Customer", new { id = customer.Id }, null)-
+                        @Html.ActionLink("Delete", "Delete", "Customer", new { id = customer.Id }, new { onclick = "return confirm('Are sure wants to delete?');" })
+                    </td>
+                </tr>
+            }        
+    </table>
