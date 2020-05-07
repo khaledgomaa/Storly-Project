@@ -22,5 +22,7 @@ namespace Storly.Models
         [Display(Name = "Membership Type")]
         [Required]
         public byte MemberShipTypeId { get; set; }
+
+        public string MyProperty { get; set; }
     }
 }
