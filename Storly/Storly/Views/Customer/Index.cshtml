@@ -6,6 +6,7 @@
 
 <h2>My Customers</h2>
 
+<<<<<<< HEAD
     <table id="customers">
         <th>Name</th>
         <th>DisCountRate</th>
@@ -26,3 +27,84 @@
                 </tr>
             }        
     </table>
+=======
+<p>
+    @Html.ActionLink("New Customer", "New", "Customer", null, new { @class = "btn btn-primary" })
+</p>
+
+   
+<table id="customers"">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>MemberShipType</th>
+            <th>DiscountRate</th>
+            <th></th>
+        </tr>   
+    <tbody>
+   </tbody>
+    </thead>
+</table>
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "/api/Customer",
+                dataSrc:"",
+                success:function(data)
+                {
+                    
+                    $('#customers').DataTable({
+                        stateSave: true,
+                        "columnsDefs":[
+                            {
+                                "width" : "1200px","targets":0
+                            }
+                        ],
+                        data: data,
+                        columns: [
+                            {
+                                data: "Name",
+                                render: function (data, type, Customer) {
+                                    return "<a href ='Customer/Details/" + Customer.Id + "'>" + Customer.Name + "</a>";
+                                }
+                            },
+                            { 'data': 'MembershipType.Name' },
+                            { 'data': 'MembershipType.DiscountRate' },
+                            {
+                                data: "Id",
+                                render: function (data) {
+                                    return "<button class='btn-link js-delete' data-customer-id=" + data + ">Delete</button>";
+                                            
+                                }
+                            },
+                           
+                        ]
+                    });
+                   
+                }
+            });
+            $("#customers ").on("click", ".js-delete", function () {
+                var button = $(this);
+                bootbox.confirm("Are you sure you wanna remove this customer", function (result) {
+                    if (result) {
+                        $.ajax({
+                            url: "/api/Customer/" + button.attr("data-customer-id"),
+                            method: "DELETE",
+                            success: function () {
+                                button.parents("tr").remove();
+                            }
+                        });
+                    }
+                });
+            });
+           
+        });
+             
+    </script>
+}
+
+>>>>>>> Adding dataTables and using ajax to call web api

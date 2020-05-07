@@ -28,13 +28,19 @@ namespace Storly.Controllers
         {
             var customerViewModel = new CustomerViewModel
             {
+<<<<<<< HEAD
                 MemberShip = dbContext.MemberShip.ToList()       
+=======
+                MemberShip = dbContext.MemberShip.ToList(),  
+                Customer = new Customer(),     
+>>>>>>> Adding dataTables and using ajax to call web api
             };
 
             return View(customerViewModel);
         }
 
         [HttpPost]
+<<<<<<< HEAD
         public ActionResult Create(Customer customer)
         {
             if(customer.Id == 0)
@@ -45,6 +51,40 @@ namespace Storly.Controllers
             customerInDb.Name = customer.Name;
             customerInDb.MemberShipTypeId = customer.MemberShipTypeId;
             customerInDb.IsSubscribedByMemberShip = customer.IsSubscribedByMemberShip;
+=======
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Customer customer)
+        {
+            if (!(ModelState.IsValid))
+            {
+                foreach (ModelState modelstate in ViewData.ModelState.Values)
+                {
+                    foreach (ModelError modelerror in modelstate.Errors)
+                    {
+                        string error = modelerror.ErrorMessage;
+                    }
+                }
+                var customerViewModel = new CustomerViewModel
+                {
+                    Customer = customer,
+                    MemberShip = dbContext.MemberShip.ToList(),
+                };
+                return View("New", customerViewModel);
+            }
+            if (customer.Id == 0)
+            {
+                dbContext.Customer.Add(customer);
+            }
+            else
+            {
+                var customerInDb = dbContext.Customer.SingleOrDefault(c => c.Id == customer.Id);
+                customerInDb.Name = customer.Name;
+                customerInDb.MemberShipTypeId = customer.MemberShipTypeId;
+                customerInDb.IsSubscribedByMemberShip = customer.IsSubscribedByMemberShip;
+                customerInDb.BirthDate = customer.BirthDate;
+            }
+            
+>>>>>>> Adding dataTables and using ajax to call web api
             dbContext.SaveChanges();
             return RedirectToAction("Index", "Customer");
         }

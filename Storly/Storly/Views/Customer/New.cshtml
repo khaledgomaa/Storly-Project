@@ -8,6 +8,7 @@
 
 @using (Html.BeginForm("Create", "Customer"))
 {
+<<<<<<< HEAD
     <div class="form-group">
         @Html.LabelFor(c=>c.Customer.Name)
         @Html.TextBoxFor(c=> c.Customer.Name, new {@class = "form-control"})
@@ -21,6 +22,25 @@
     <div class="form-group">
         @Html.LabelFor(c => c.Customer.MemberShipTypeId)
         @Html.DropDownListFor(c => c.Customer.MemberShipTypeId, new SelectList(Model.MemberShip, "Id", "Name"), "Select MemberShip Type", new { @class = "form-control" })
+=======
+    @Html.ValidationSummary(true,"Please Fill Required Fields Down =D")
+    <div class="form-group">
+        @Html.LabelFor(c=>c.Customer.Name)
+        @Html.TextBoxFor(c=> c.Customer.Name, new {@class = "form-control"})
+        @Html.ValidationMessageFor(c=>c.Customer.Name)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.MemberShipTypeId)
+        @Html.DropDownListFor(c => c.Customer.MemberShipTypeId, new SelectList(Model.MemberShip, "Id", "Name"), "Select MemberShip Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Customer.MemberShipTypeId)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Customer.BirthDate)
+        @Html.TextBoxFor(c => c.Customer.BirthDate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c=>c.Customer.BirthDate)
+>>>>>>> Adding dataTables and using ajax to call web api
     </div>
 
     <div class="checkbox">
@@ -29,7 +49,20 @@
         </label>
     </div>
 
+<<<<<<< HEAD
     <button type="submit" class="btn btn-primary" >Submit</button>
     @Html.HiddenFor(c=>c.Customer.Id)
     
 }
+=======
+    @Html.HiddenFor(c => c.Customer.Id)
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary" >Submit</button>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+>>>>>>> Adding dataTables and using ajax to call web api

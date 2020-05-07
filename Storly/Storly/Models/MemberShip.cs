@@ -12,5 +12,12 @@ namespace Storly.Models
         public short SignUpFee { get; set; }
         public byte DurationInMonth { get; set; }
         public byte DiscountRate { get; set; }
+<<<<<<< HEAD
+=======
+
+        public static readonly byte Unknown = 0;
+        public static readonly byte PayAsYouGo = 1;
+
+>>>>>>> Adding dataTables and using ajax to call web api
     }
 }

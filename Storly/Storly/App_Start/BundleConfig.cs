@@ -21,10 +21,21 @@ namespace Storly
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+<<<<<<< HEAD
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+=======
+                      "~/Scripts/respond.js",
+                      "~/Scripts/bootbox.js",
+                      "~/scripts/datatables/jquery.datatables.js",
+                      "~/scripts/datatables/datatables.bootstrap4.js"));
+
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/content/datatables/css/datatables.bootstrap4.css",
+>>>>>>> Adding dataTables and using ajax to call web api
                       "~/Content/site.css"));
         }
     }

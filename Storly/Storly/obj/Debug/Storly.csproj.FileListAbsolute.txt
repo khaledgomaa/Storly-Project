@@ -90,6 +90,7 @@ c:\Users\KhaledGomaa\Documents\Visual Studio 2015\Projects\Storly\Storly\bin\Sys
 c:\Users\KhaledGomaa\Documents\Visual Studio 2015\Projects\Storly\Storly\bin\System.Net.Http.Formatting.xml
 c:\Users\KhaledGomaa\Documents\Visual Studio 2015\Projects\Storly\Storly\bin\System.Web.Http.xml
 c:\Users\KhaledGomaa\Documents\Visual Studio 2015\Projects\Storly\Storly\bin\System.Web.Http.WebHost.xml
+<<<<<<< HEAD
 F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Storly\bin\ApplicationInsights.config
 F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Storly\bin\roslyn\csc.exe
 F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Storly\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -183,3 +184,101 @@ F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Sto
 F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Storly\obj\Debug\Storly.dll
 F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Storly\obj\Debug\Storly.pdb
 F:\Courses\Net Full Stack Track\Storly Commits\Crup operations worked\Storly\Storly\obj\Debug\Storly.Migrations.InitialModel.resources
+=======
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.csprojResolveAssemblyReference.cache
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.Migrations.IntialModel.resources
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.Migrations.PopulateMemberShipData.resources
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.Migrations.IntialModel1.resources
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.csproj.GenerateResource.Cache
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\obj\Debug\Storly.pdb
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\ApplicationInsights.config
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\csc.exe
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\System.Collections.Immutable.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\System.Reflection.Metadata.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\vbc.exe
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\VBCSCompiler.exe
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\roslyn\VBCSCompiler.exe.config
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Storly.dll.config
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Storly.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Storly.pdb
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Antlr3.Runtime.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\AutoMapper.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\EntityFramework.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\EntityFramework.SqlServer.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.DependencyCollector.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.Web.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.WindowsServer.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.ApplicationInsights.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Google.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Web.Infrastructure.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Newtonsoft.Json.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Owin.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Net.Http.Formatting.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Helpers.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Http.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Http.WebHost.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Mvc.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Optimization.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Razor.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.WebPages.Deployment.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.WebPages.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.WebPages.Razor.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\WebGrease.dll
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\AutoMapper.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\EntityFramework.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\EntityFramework.SqlServer.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.DependencyCollector.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.Web.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AI.WindowsServer.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.ApplicationInsights.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Net.Http.Formatting.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Http.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Http.WebHost.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Helpers.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Mvc.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Optimization.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.Razor.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.WebPages.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.WebPages.Deployment.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\System.Web.WebPages.Razor.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Antlr3.Runtime.pdb
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Newtonsoft.Json.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Google.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Courses\Net Full Stack Track\Storly Commits\Validation and anti forgery with client side\Storly\Storly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\KhaledGomaa\Documents\Visual Studio 2015\Projects\Storly\Storly\bin\AutoMapper.dll
+C:\Users\KhaledGomaa\Documents\Visual Studio 2015\Projects\Storly\Storly\bin\AutoMapper.xml
+>>>>>>> Adding dataTables and using ajax to call web api

@@ -7,6 +7,7 @@
 <h2>MyMovies</h2>
 
 <table id="customers">
+<<<<<<< HEAD
     <th>Name</th>
     <th>GenreType</th>
     <th>DateAdded</th>
@@ -25,3 +26,70 @@
     }
 </table>
 
+=======
+    <thead>
+    <th>Name</th>
+    <th>GenreType</th>
+    <th>ReleaseDate</th>
+    <th></th>
+    <tbody>
+        
+    </tbody>
+    </thead>
+</table>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "/api/Movie",
+                dataSrc:"",
+                success:function(data)
+                {
+
+                    $('#customers').DataTable({
+                        data: data,
+                        columns: [
+                            {
+                                data: "Name",
+                                render: function (data, type, Movie) {
+                                    return "<a href ='Movie/Details/" + Movie.Id + "'>" + Movie.Name + "</a>";
+                                }
+                            },
+                            { 'data': 'GenreType.Name' },
+                            { 'data': 'ReleaseDate' },
+                            {
+                                data: "Id",
+                                render: function (data) {
+                                    return "<button class='btn-link js-delete' data-movie-id=" + data + ">Delete</button>";
+
+                                }
+                            },
+
+                        ]
+                    });
+
+                }
+            });
+            $("#customers ").on("click", ".js-delete", function () {
+                var button = $(this);
+                bootbox.confirm("Are you sure you wanna remove this movie", function (result) {
+                    if (result) {
+                        $.ajax({
+                            url: "/api/Movie/" + button.attr("data-movie-id"),
+                            method: "DELETE",
+                            success: function () {
+                                button.parents("tr").remove();
+                            }
+                        });
+                    }
+                });
+            });
+
+        });
+
+    </script>
+}
+
+>>>>>>> Adding dataTables and using ajax to call web api

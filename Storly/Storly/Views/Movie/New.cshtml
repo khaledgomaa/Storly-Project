@@ -9,6 +9,7 @@
 @using (Html.BeginForm("Create", "Movie"))
 {
     <div class="form-group">
+<<<<<<< HEAD
         @Html.LabelFor(m=>m.Movie.Name)
         @Html.TextBoxFor(c => c.Movie.Name, new { @class = "form-control" })
     </div>
@@ -31,4 +32,38 @@
     <button type="submit" class="btn btn-primary">Submit</button>
     @Html.HiddenFor(c => c.Movie.Id)
 
+=======
+        @Html.LabelFor(m=>m.Name)
+        @Html.TextBoxFor(c => c.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m=>m.Name)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.ReleaseDate)
+        @Html.TextBoxFor(c => c.ReleaseDate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ReleaseDate)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.GenreTypeId)
+        @Html.DropDownListFor(c => c.GenreTypeId, new SelectList(Model.Genre, "Id", "Name"), "Select Genre Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.GenreTypeId)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.NumberInStock)
+        @Html.TextBoxFor(c => c.NumberInStock, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.NumberInStock)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    @Html.HiddenFor(c => c.Id)
+    @Html.AntiForgeryToken()
+
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+>>>>>>> Adding dataTables and using ajax to call web api
 }

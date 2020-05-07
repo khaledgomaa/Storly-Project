@@ -25,7 +25,11 @@ namespace Storly.Controllers
         }
         public ViewResult New()
         {
+<<<<<<< HEAD
             var movieViewModel = new MovieViewlModel
+=======
+            var movieViewModel = new MovieViewlModel()
+>>>>>>> Adding dataTables and using ajax to call web api
             {
                 Genre = dbContext.Genre.ToList(),
             };
@@ -33,18 +37,44 @@ namespace Storly.Controllers
         }
 
         [HttpPost]
+<<<<<<< HEAD
         public ActionResult Create(Movie movie)
         {
+=======
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Movie movie)
+        {
+            if(!ModelState.IsValid)
+            {
+                var movieViewModel = new MovieViewlModel(movie)
+                {
+                    Genre = dbContext.Genre.ToList(),
+                };
+                return View("New", movieViewModel);
+            }
+>>>>>>> Adding dataTables and using ajax to call web api
             if(movie.Id ==0)
             {
                 movie.DateAdded = DateTime.Now;
                 dbContext.Movie.Add(movie);
             }
+<<<<<<< HEAD
             var movieInDb = dbContext.Movie.SingleOrDefault(m => m.Id == movie.Id);
             movieInDb.Name = movie.Name;
             movieInDb.ReleaseDate = movie.ReleaseDate;
             movieInDb.GenreTypeId = movie.GenreTypeId;
             movieInDb.NumberInStock = movie.NumberInStock;
+=======
+            else
+            {
+                var movieInDb = dbContext.Movie.SingleOrDefault(m => m.Id == movie.Id);
+                movieInDb.Name = movie.Name;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.GenreTypeId = movie.GenreTypeId;
+                movieInDb.NumberInStock = movie.NumberInStock;
+            }
+            
+>>>>>>> Adding dataTables and using ajax to call web api
 
             dbContext.SaveChanges();
             return RedirectToAction("Index","Movie");
@@ -54,9 +84,14 @@ namespace Storly.Controllers
             var movieInDb = dbContext.Movie.SingleOrDefault(m => m.Id == id);
             if (movieInDb == null)
                 return HttpNotFound();
+<<<<<<< HEAD
             var movieViewModel = new MovieViewlModel
             {
                 Movie = movieInDb,
+=======
+            var movieViewModel = new MovieViewlModel(movieInDb)
+            {
+>>>>>>> Adding dataTables and using ajax to call web api
                 Genre = dbContext.Genre.ToList(),
             };
             return View("New", movieViewModel);

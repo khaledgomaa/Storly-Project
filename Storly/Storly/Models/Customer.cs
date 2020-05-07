@@ -15,6 +15,10 @@ namespace Storly.Models
         public bool IsSubscribedByMemberShip { get; set; }
 
         [Display(Name = "Date of Birth")]
+<<<<<<< HEAD
+=======
+        [Min18YearsOld]
+>>>>>>> Adding dataTables and using ajax to call web api
         public DateTime? BirthDate { get; set; }
 
         public MemberShip MembershipType { get; set; }
@@ -22,7 +26,10 @@ namespace Storly.Models
         [Display(Name = "Membership Type")]
         [Required]
         public byte MemberShipTypeId { get; set; }
+<<<<<<< HEAD
 
         public string MyProperty { get; set; }
+=======
+>>>>>>> Adding dataTables and using ajax to call web api
     }
 }
